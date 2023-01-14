@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;}
+    
+
+    header{
+        background: rgba(255, 144, 14, 0.1);
+    }
+
+/* nav styles */
+
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px
+
+}
+
+
+
+
+
+.nav-li a{
+    text-decoration: none;
+    color: #424242;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* -----------Brand styles */
+.brand-section{
+    margin-top: 116px;
+}
+.brand-decs{
+    text-align: center;
+   
+}
+.brand-title{
+     font-weight: 700;
+    font-size: 64px;
+}
+.brand-details{
+    color: #727272;
+      font-weight: 400;
+      font-size: 16px;
+      margin-top: 20px;
+}
+.btn-primary{
+    background: #FF900E;
+     border-radius: 8px;
+     border: 0;
+     padding: 10px 20px;
+      color: #ffff;
+      margin-top: 32px;
+}
+.brand-img img{
+    width: 1400px;
+    height: 700px;
+    margin-top: 50px;
+    padding-left: 72px;
+    padding-right: 400px;
+}
+/* _____--------feature styles-------------- */
+.feature-container{
+    display: flex;
+    gap: 73px;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+
+    .teams-img {
+       
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 24px;
+       
+
+    }
+    .teams-img img{
+        max-width: 100%;
+    }
+
+   
+    .feature-decs{
+        text-align: center;
+        margin-top: 332px;
+        justify-content: flex-start;
+    }
+    .feature-title{
+        font-weight: 700;
+        font-size: 45px;
+
+    }
+    .special-color-1{
+        font-weight: 500;
+        font-size: 45px;
+        color: #727272;
+    }
+    #special-color{
+        color: #FF900E;
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .feature-details{
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+    }
+/* -----------------Feature styles---------- */
+.feature-section{
+    display: flex;
+    gap: 54px;
+
+    margin: 130px 180px;
+    
+}
+.decs-section{
+    display: block;
+}
+.feature-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.feature-decs-1{
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+    margin: 24px 0;
+}
+article{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 3px 3px grey,-1rem 0 .4em grey;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+.decs-image{
+    max-width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+.btn-extra{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 342px;
+    height: 200px;
+    color: #ffff;
+}
+
+
+
+
+/* ----------responsive styles */
+
+
+@media only screen and (max-width: 576px) {
+    header{
+        justify-content: center;
+        padding: 0 20px;
+        justify-content: center;
+        width: 100%;
+      
+    }
+  
+    .nav-section{
+       flex-direction: column;
+      align-content: flex-start;
+      justify-content: center;
+      margin-right: 20px;
+       
+    }
+    .nav-title{
+        text-align: center; 
+        font-weight: 200; 
+      }
+
+        .nav-li a{
+            display: block;
+            text-align: center;
+           justify-content: center;
+            margin-top: 10px;
+            margin-right: 3px;
+        }
+        .brand-section{
+            margin-top: 30px;
+        }
+        .brand-title{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        #brand-details{
+           
+            font-size: 10px;
+            font-weight: 150px;
+           white-space: pre-wrap;
+          
+        }
+        
+
+        .brand-img img{
+            width: 150px;
+            height: 100px;
+            justify-content: center;
+             margin-top: 20px;
+           padding-left: 50px;
+           margin-left: 20px;
+        }
+
+        .feature-container{
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            margin-top: 10px;
+           
+            width: 300px;
+        }
+        .feature-decs{
+            margin: 0 40px;
+        }
+        .special-color-1{
+            font-size: 20px;
+        }
+        #special-color{
+            font-size: 20px;
+        }
+        .feature-title{
+            font-size: 20px;
+        }
+        .btn-primary{
+            width: 100px;
+        }
+       
+
+        .teams-img{
+            grid-template-columns: repeat(1, 1fr);
+            grid-column-gap: 20px;
+            max-width: 50%;
+            margin: 0 60px;
+        }
+      
+        }
+      
+        
+   
+
+
+    
+}
